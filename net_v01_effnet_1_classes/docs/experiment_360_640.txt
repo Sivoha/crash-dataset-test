@@ -1,0 +1,86 @@
+D:\Programs\Anaconda3_2020.10\python.exe D:/Projects/2023_04_15_Crash_Dataset/crash-dataset-2023/net_v01_effnet_1_classes/r30_train_model.py
+GPU use: 1
+Fold 0: effnet_v2_l_pytorch_fold_0-384px-auc_0.700435-acc-0.794321-ll-0.473547-ep-11.pt
+Device: cuda Epochs: 30 Batch size train: 10
+Go fold: 0
+Creating and compiling effnet_v2_l_pytorch_optim_AdamW_drop_0.3...
+Load weights: D:\Projects\2023_04_15_Crash_Dataset/models/net_v01_effnet_1_classes_r30_train_model.py_kfold_split_5_42_1_384\effnet_v2_l_pytorch_fold_0-384px-auc_0.700435-acc-0.794321-ll-0.473547-ep-11.pt
+D:\Programs\Anaconda3_2020.10\lib\site-packages\albumentations\augmentations\transforms.py:2694: UserWarning: blur_limit and sigma_limit minimum value can not be both equal to 0. blur_limit minimum value changed to 3.
+  warnings.warn(
+Start train epoch: 1 from 30 LR: [0.0001]
+100%|██████████| 1518/1518 [12:56<00:00,  1.95it/s, loss=0.0625]
+Time: 776.75
+Acc: 0.817255 LL: 0.725865 AUC: 0.670901 Time: 64.68
+Start train epoch: 2 from 30 LR: [9.972883382072952e-05]
+100%|██████████| 1518/1518 [12:39<00:00,  2.00it/s, loss=0.0386]
+Time: 759.09
+Acc: 0.811067 LL: 0.976752 AUC: 0.581480 Time: 59.33
+Start train epoch: 3 from 30 LR: [9.891830623632339e-05]
+100%|██████████| 1518/1518 [12:39<00:00,  2.01it/s, loss=0.0311]Time: 759.49
+100%|██████████| 1518/1518 [12:39<00:00,  2.00it/s, loss=0.0311]
+Acc: 0.773207 LL: 0.842278 AUC: 0.594325 Time: 60.45
+Start train epoch: 4 from 30 LR: [9.757729755661011e-05]
+100%|██████████| 1518/1518 [12:39<00:00,  2.00it/s, loss=0.0284]
+Time: 759.97
+Acc: 0.719694 LL: 0.883560 AUC: 0.570189 Time: 59.11
+Start train epoch: 5 from 30 LR: [9.572050015330874e-05]
+100%|██████████| 1518/1518 [12:44<00:00,  1.99it/s, loss=0.0281]
+Time: 764.36
+Acc: 0.814343 LL: 0.878746 AUC: 0.603572 Time: 59.06
+Start train epoch: 6 from 30 LR: [9.336825748732972e-05]
+100%|██████████| 1518/1518 [12:44<00:00,  1.99it/s, loss=0.0232]
+Time: 764.67
+Acc: 0.775391 LL: 0.785043 AUC: 0.639321 Time: 59.36
+Start train epoch: 7 from 30 LR: [9.05463412215599e-05]
+100%|██████████| 1518/1518 [12:40<00:00,  2.02it/s, loss=0.018]Time: 760.93
+100%|██████████| 1518/1518 [12:40<00:00,  1.99it/s, loss=0.018]
+Acc: 0.806334 LL: 0.805260 AUC: 0.639908 Time: 59.89
+  0%|          | 0/1518 [00:00<?, ?it/s]Start train epoch: 8 from 30 LR: [8.728566886113102e-05]
+100%|██████████| 1518/1518 [12:38<00:00,  2.00it/s, loss=0.0222]
+Time: 758.70
+Acc: 0.782672 LL: 0.668920 AUC: 0.641555 Time: 59.80
+Start train epoch: 9 from 30 LR: [8.36219650147635e-05]
+100%|██████████| 1518/1518 [12:40<00:00,  2.00it/s, loss=0.0181]
+Time: 760.65
+Acc: 0.775391 LL: 0.759816 AUC: 0.613929 Time: 59.21
+Start train epoch: 10 from 30 LR: [7.959536998847744e-05]
+100%|██████████| 1518/1518 [12:38<00:00,  2.00it/s, loss=0.0152]
+Time: 758.37
+Acc: 0.802330 LL: 0.685793 AUC: 0.624769 Time: 59.78
+Start train epoch: 11 from 30 LR: [7.525000000000001e-05]
+100%|██████████| 1518/1518 [12:47<00:00,  1.98it/s, loss=0.0166]
+Time: 767.36
+Acc: 0.801238 LL: 0.793432 AUC: 0.603242 Time: 61.38
+Start train epoch: 12 from 30 LR: [7.063346383225212e-05]
+100%|██████████| 1518/1518 [12:45<00:00,  1.98it/s, loss=0.0168]
+Time: 765.53
+Acc: 0.751365 LL: 0.760031 AUC: 0.623663 Time: 59.40
+Start train epoch: 13 from 30 LR: [6.579634122155991e-05]
+100%|██████████| 1518/1518 [12:44<00:00,  1.98it/s, loss=0.0141]
+Time: 764.99
+Acc: 0.803786 LL: 0.734381 AUC: 0.661331 Time: 59.08
+Start train epoch: 14 from 30 LR: [6.0791628695479074e-05]
+100%|██████████| 1518/1518 [12:40<00:00,  2.00it/s, loss=0.0127]
+Time: 760.13
+Acc: 0.804514 LL: 0.745889 AUC: 0.667200 Time: 59.62
+  0%|          | 0/1518 [00:00<?, ?it/s]Start train epoch: 15 from 30 LR: [5.5674158931748854e-05]
+100%|██████████| 1518/1518 [12:38<00:00,  2.00it/s, loss=0.0143]
+Time: 758.65
+Acc: 0.803786 LL: 0.799429 AUC: 0.596526 Time: 59.10
+Start train epoch: 16 from 30 LR: [5.0500000000000015e-05]
+100%|██████████| 1518/1518 [12:38<00:00,  2.00it/s, loss=0.0124]
+Time: 758.11
+Acc: 0.788861 LL: 0.891604 AUC: 0.582848 Time: 58.95
+Start train epoch: 17 from 30 LR: [4.532584106825116e-05]
+100%|██████████| 1518/1518 [12:43<00:00,  1.99it/s, loss=0.0104]
+Time: 763.65
+Acc: 0.813251 LL: 0.941978 AUC: 0.578277 Time: 59.28
+Start train epoch: 18 from 30 LR: [4.020837130452091e-05]
+100%|██████████| 1518/1518 [12:44<00:00,  1.99it/s, loss=0.00877]
+Time: 764.01
+Acc: 0.815071 LL: 0.996344 AUC: 0.580336 Time: 59.05
+Start train epoch: 19 from 30 LR: [3.5203658778440106e-05]
+100%|██████████| 1518/1518 [12:38<00:00,  2.02it/s, loss=0.00776]Time: 758.56
+100%|██████████| 1518/1518 [12:38<00:00,  2.00it/s, loss=0.00776]
+
+Process finished with exit code -1

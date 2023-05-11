@@ -1,0 +1,8 @@
+Best model run 0:
+effnet_v2_l_pytorch_fold_0-384px-rmse_4.061947-mse-3.129633-ep-01.pt
+All valid. Acc: 0.763378 LL: 0.517596 AUC: 0.735824 Time: 65.16
+
+
+Best model run 1:
+effnet_v2_l_pytorch_fold_0-384px-auc_0.700435-acc-0.794321-ll-0.473547-ep-11.pt
+
